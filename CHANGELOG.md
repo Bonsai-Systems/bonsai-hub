@@ -2,6 +2,12 @@
 
 All notable changes to Bonsai Hub are documented here. Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.1] - 2026-10-05
+
+### Changed
+- Bonsai admin menu now sits directly below Dashboard instead of above it. Default menu position is 3 (was 1).
+- `bonsai_hub_menu_first` filter renamed to `bonsai_hub_menu_below_dashboard`.
+
 ## [1.0.0] - 2026-10-03
 
 ### Added

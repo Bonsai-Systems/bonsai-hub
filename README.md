@@ -81,7 +81,7 @@ Old links such as `options-general.php?page=bonsai-my-plugin` redirect to the ne
 ### Helpers
 
 - `Bonsai_Hub::url( $page, $tab = '', $args = array() )` builds a hub screen URL. Call it from hooks, not at file load: the hub boots on `plugins_loaded`.
-- Filters: `bonsai_hub_modules`, `bonsai_hub_catalogue`, `bonsai_hub_menu_icon` (default `dashicons-layout`), `bonsai_hub_menu_first` (default true: Bonsai is forced to the top of the sidebar, above Dashboard) and `bonsai_hub_menu_position` (default 1, used when `bonsai_hub_menu_first` is false).
+- Filters: `bonsai_hub_modules`, `bonsai_hub_catalogue`, `bonsai_hub_menu_icon` (default `dashicons-layout`), `bonsai_hub_menu_below_dashboard` (default true: Bonsai is pinned directly below Dashboard in the sidebar) and `bonsai_hub_menu_position` (default 3, used when `bonsai_hub_menu_below_dashboard` is false).
 
 ## Releasing a hub change
 
