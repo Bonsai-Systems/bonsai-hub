@@ -93,6 +93,12 @@ final class Bonsai_Hub_Installer {
 				'repo'        => 'https://github.com/Bonsai-Systems/bonsai-page-transitions',
 				'legacy_url'  => 'options-general.php?page=bonsai-page-transitions',
 			),
+			'bonsai-post-expiry'      => array(
+				'name'        => __( 'Bonsai Post Expiry', 'bonsai-hub' ),
+				'description' => __( 'Sets an expiry date and time on any post or page. When it passes, the post switches back to Draft.', 'bonsai-hub' ),
+				'file'        => 'bonsai-post-expiry.php',
+				'repo'        => 'https://github.com/Bonsai-Systems/bonsai-post-expiry',
+			),
 			'bonsai-seo-geo-checker'  => array(
 				'name'        => __( 'Bonsai SEO/GEO Checker', 'bonsai-hub' ),
 				'description' => __( 'Audits a single URL for search basics, AI visibility (GEO) and PageSpeed, with a Claude-written fix list.', 'bonsai-hub' ),

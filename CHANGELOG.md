@@ -2,6 +2,11 @@
 
 All notable changes to Bonsai Hub are documented here. Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.2] - 2026-10-08
+
+### Added
+- Bonsai Post Expiry in the Plugins catalogue.
+
 ## [1.0.1] - 2026-10-05
 
 ### Changed

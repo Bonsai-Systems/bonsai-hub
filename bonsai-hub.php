@@ -16,7 +16,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-$bonsai_hub_candidate_version = '1.0.1';
+$bonsai_hub_candidate_version = '1.0.2';
 
 if ( ! isset( $GLOBALS['bonsai_hub_candidates'] ) || ! is_array( $GLOBALS['bonsai_hub_candidates'] ) ) {
 	$GLOBALS['bonsai_hub_candidates'] = array();
